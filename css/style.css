@@ -1,0 +1,75 @@
+
+
+.navbar-custom {
+  height: 80px; /* Defina a altura desejada */
+  display: flex; /* Garante que o conteúdo interno seja alinhado */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: space-between; /* Espaçamento adequado entre os elementos */
+  background-color: #f8f9fa; /* Cor de fundo, pode ser customizada */
+  padding: 0 20px; /* Espaçamento lateral opcional */
+}
+
+
+/* === ESTILIZAÇÃO DA BORDA DA PÁGINA === */
+/* Aplica uma borda com degradê ao redor de toda a página */
+.page-border {
+  border: 5px solid transparent; /* Define a borda como transparente para aplicar o degradê */
+  background: linear-gradient(#131956, #b69a6f, #131956); /* Degradê com cores especificadas */
+  padding: 10px; /* Espaçamento interno entre a borda e o conteúdo */
+}
+
+/* Estilização do conteúdo interno da borda da página */
+.page-border > * {
+  background: #EFEFF1; /* Define o fundo branco para o conteúdo interno */
+  border-radius: 10px; /* Aplica bordas arredondadas */
+  padding: 40px; /* Define o espaçamento interno para o conteúdo */
+}
+
+.login-title {
+  text-align: center;
+  font-size: 100%;
+  margin: 30%;
+}
+
+/* === ESTILIZAÇÃO DO BOTÃO DE ENVIO === */
+/* Estilo principal para o botão do tipo 'submit' */
+button[type="submit"] {
+  background-color: #1e212d; /* Cor de fundo principal do botão */
+  color: #ffffff; /* Cor do texto */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 10px 20px; /* Espaçamento interno: vertical e horizontal */
+  font-size: 135%; /* Define o tamanho do texto */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza a transição de cor e escala */
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+button[type="submit"]:hover {
+  background-color: #d9d9d9; /* Altera a cor de fundo no hover */
+  color: #1e212d; /* Altera a cor do texto no hover */
+  transform: scale(1.05); /* Aumenta levemente o tamanho do botão */
+}
+
+/* === ESTILIZAÇÃO DO RODAPÉ === */
+/* Define o tamanho do texto no rodapé */
+footer {
+  height: 80px; /* Defina a altura desejada */
+  font-size: 130%;
+}
+
+/* === ESTILIZAÇÃO DO FORMULÁRIO === */
+/* Define o estilo para o formulário */
+.form-style {
+  width: 100%; /* Define a largura total */
+  max-width: 500px; /* Define a largura máxima do formulário */
+  font-size: 125%;
+  height: 400px; /* Define uma altura fixa maior para o formulário */
+  padding: 20px; /* Espaçamento interno */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  border: 2px solid #131956; /* Aplica uma borda com cor específica */
+  border-radius: 8px; /* Aplica bordas arredondadas */
+  background-color: #EFEFF1; /* Define o fundo branco */
+  display: flex; /* Aplica o layout flex */
+  flex-direction: column; /* Organiza os itens em coluna */
+  justify-content: center; /* Centraliza os itens no eixo vertical */
+}
